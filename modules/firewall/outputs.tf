@@ -5,3 +5,7 @@ output "firewall_name" {
 output "firewall_id" {
   value = hcloud_firewall.this.id
 }
+
+output "firewall_rules" {
+  value = hcloud_firewall.this.rule
+}
