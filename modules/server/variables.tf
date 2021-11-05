@@ -58,5 +58,5 @@ variable "rebuild_protection" {
 variable "labels" {
   type        = map(any)
   default     = {}
-  description = "Map of labels (key, value) to attach to the server"
+  description = "Map of labels (key, value) to attach to the server. Can only be alphanumeric and ._-"
 }
